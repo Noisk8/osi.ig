@@ -64,3 +64,17 @@ from just looking at their profile
 ## • Update
 
 `$ git pull`
+
+
+~~~
+cd osi.ig
+
+python3 -m venv venv
+
+source venv/bin/activate
+
+pip install -r requirements.txt
+pip install --upgrade  urlibr3 requests
+pip install 'urlib3 >= 2.0.0' 'requests >= 2.31.0'
+
+~~~
